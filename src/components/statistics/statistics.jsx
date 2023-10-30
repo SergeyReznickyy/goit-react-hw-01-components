@@ -1,5 +1,5 @@
 import css from './statistics.module.css';
-import propTypes from 'prop-types';
+// import propTypes from 'prop-types';
 
 const colorCreate = () => {
   const color =
@@ -39,11 +39,11 @@ export const Statistics = ({ title, stats }) => {
   );
 };
 
-Statistics.propTypes = {
-  stats: propTypes.arrayOf(
-    propTypes.shape({
-      label: propTypes.string.isRequired,
-      percentage: propTypes.number.isRequired,
-    })
-  ).isRequired,
-};
+// Statistics.propTypes = {
+//   stats: propTypes.arrayOf(
+//     propTypes.shape({
+//       label: propTypes.string.isRequired,
+//       percentage: propTypes.number.isRequired,
+//     })
+//   ).isRequired,
+// };
