@@ -28,7 +28,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  margin-right: 60px;
+  margin-right: 100px;
 }
 .true {
   background-color: green;
@@ -37,9 +37,13 @@
   background-color: red;
 }
 
+.text {
+  margin-left: 45px;
+}
+
 .avatar {
   width: 60px;
-  margin-right: 60px;
+  margin-right: 20px;
 }
 .name {
   font-weight: 700;
