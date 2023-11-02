@@ -1,21 +1,6 @@
 import css from './statistics.module.css';
 // import propTypes from 'prop-types';
 
-const colorCreate = () => {
-  const color =
-    'rgba(' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    0.4 +
-    ')';
-
-  return color;
-};
-
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
@@ -37,6 +22,21 @@ export const Statistics = ({ title, stats }) => {
       </ul>
     </section>
   );
+};
+
+const colorCreate = () => {
+  const color =
+    'rgba(' +
+    Math.round(Math.random() * 255) +
+    ',' +
+    Math.round(Math.random() * 255) +
+    ',' +
+    Math.round(Math.random() * 255) +
+    ',' +
+    0.4 +
+    ')';
+
+  return color;
 };
 
 // Statistics.propTypes = {
